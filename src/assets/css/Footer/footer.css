@@ -1,0 +1,78 @@
+footer {
+  background: linear-gradient(175deg, blue, red);
+  padding: 10px;
+  text-align: center;
+  margin-top: 5px;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+/* Contenedor principal en fila */
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Columnas individuales */
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Títulos */
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+/* Texto */
+.footer-text {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin: 4px 0;
+}
+
+/* Inputs */
+.footer-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  font-size: 14px;
+  width: 180px;
+}
+
+/* Suscripción */
+.subscription-message {
+  color: #000;
+  font-size: 1.1em;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Botones de navegación (Nosotros, Contacto) */
+.Footer h2 {
+  font-size: 1.2rem;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  cursor: pointer;
+}
+
+.div2, .div3 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-link a {
+padding: 5px 5px;
+}

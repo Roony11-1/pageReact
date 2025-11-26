@@ -1,0 +1,12 @@
+.blogContainer {
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+.blogContainer a {
+    color: #000;
+}
+
+.blogContainer a:hover {
+    color: aqua;
+}

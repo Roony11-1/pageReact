@@ -1,0 +1,37 @@
+.usuarioPanel-usuario, .productoPanel-producto {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #333;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.usuarioPanel-usuario:hover, .productoPanel-producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.editable {
+    padding: 5px 8px;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.editable:hover {
+    background-color: #f0f0f0;
+    color: #000;
+    cursor: pointer;
+}
+
+.productoPanel-producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}

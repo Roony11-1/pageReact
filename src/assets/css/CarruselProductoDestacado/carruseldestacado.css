@@ -1,0 +1,8 @@
+.carrusel-producto-destacado .carousel-item {
+  display: none;
+  text-align: center;
+}
+
+.carrusel-producto-destacado .carousel-item.active {
+  display: block;
+} 

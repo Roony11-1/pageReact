@@ -1,0 +1,13 @@
+.pie {
+    display: flex;
+    flex-direction: row;
+    background: #1e90ff;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.pie div {
+    padding: 5px;
+    gap: 10px;
+}

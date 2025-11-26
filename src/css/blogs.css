@@ -1,0 +1,38 @@
+.noticia {
+  display: flex;
+  flex-direction: column; /* Apila elementos verticalmente */
+  align-items: center;    /* Centra horizontalmente */
+  background: #eaeaea;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  width: 30%;
+  box-sizing: border-box; /* Para que padding no afecte el ancho */
+}
+
+.texto {
+  text-align: center; /* Centra el contenido dentro */
+}
+
+.texto h2 {
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.texto p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.texto img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Espacio entre imagen y descripción */
+}
+
+#contenedor-blogs h3 {
+    text-align: center;      /* Centra el h3 */
+    margin-bottom: 30px;     /* Espacio entre el h3 y las noticias */          /* Opcional: color del texto */   /* Ajusta el tamaño a tu gusto */
+}

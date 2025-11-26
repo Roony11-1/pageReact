@@ -1,0 +1,19 @@
+.video-container {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.3);
+    padding: 2px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    display: block;
+    margin: 20px auto;
+}

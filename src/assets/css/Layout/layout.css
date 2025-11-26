@@ -1,0 +1,20 @@
+main {
+    padding: 0px;
+    gap: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.outlet-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(180deg, red, blue);
+    min-height: 100%;
+}

@@ -1,0 +1,46 @@
+.catalogo-container {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contenedor-productos {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contenedor-filtros {
+    display: flex;
+    flex: 1;
+    height: 250px;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+.producto-agotado {
+    color: red;
+}
+
+.contenedor-marcas, .contenedor-categorias{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid black ;
+
+    max-height: 120px;
+    overflow-y: auto;
+
+    border-radius: 10px;
+    padding: 5px;
+}

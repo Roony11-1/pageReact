@@ -1,0 +1,39 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+:root {
+
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+p, span, a, li, div {
+  font-family: 'Roboto', sans-serif;
+}
+
+.texto-principal {
+  color: #fff;
+}
+
+.texto-secundario {
+  color: #d3d3d3;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a h2:hover {
+  color: #000;
+  background-color: #fff;
+}

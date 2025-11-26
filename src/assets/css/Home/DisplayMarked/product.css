@@ -1,0 +1,8 @@
+.producto-destacado {
+    display: flex;
+    padding: 5px;
+}
+
+.producto-destacado:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,17 @@
+.menuHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menuHeader:hover {
+  cursor: pointer;
+}
+
+.titulo-abierto {
+  color: white;
+}
+
+.titulo-cerrado {
+  color: black;
+}

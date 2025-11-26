@@ -1,0 +1,76 @@
+.user-panel {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    color: #000;
+}
+
+.user-links {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    z-index: 10;
+    background: #fff;
+    border-radius: 12px;
+    min-width: 200px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transform: translateX(0);
+    transition: all 0.3s ease;
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.user-panel:hover .user-links {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transform: translateX(-75px);
+}
+
+.user-links a {
+    display: block;
+    padding: 10px 16px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.25s ease, color 0.25s ease, padding-left 0.25s ease;
+}
+
+.user-links a:hover {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding-left: 20px;
+}
+
+.seleccionada {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.user-links > div {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+/* Menu */
+.user-panel h1 {
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 10px 16px;
+    border-radius: 12px;
+    border: 1px solid #fff; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-panel h1:hover {
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}

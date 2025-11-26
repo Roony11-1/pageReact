@@ -1,0 +1,50 @@
+.Contenedor {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.Producto {
+    border: 1px solid #d3d3d3; 
+    border-radius: 10px;
+    padding: 15px;
+    width: 22rem;
+    height: 550px;
+    background: linear-gradient(270deg, #e0e0e0, #b8b8b8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.Producto p:hover, .Producto h1:hover {
+    transform: translateY(-5px); /* Efecto hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.Producto .btn {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Producto .btn:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .Producto {
+        width: 45%;
+        height: auto;
+    }
+}

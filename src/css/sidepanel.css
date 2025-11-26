@@ -1,0 +1,106 @@
+.sidepanel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #1e90ff;
+    overflow: hidden;
+    transition: width 0.3s, background 0.3s;
+    height: 100%;
+    gap: 15px;
+    padding: 10px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+}
+
+.sidepanel div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidepanel a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidepanel a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#sidepanel-header {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #1e90ff, #3aa0ff);
+}
+
+#sidepanel-carrito {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    max-height: 100%;
+    background: linear-gradient(to bottom, #1e90ff, #187bcd);
+    padding: 10px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+}
+
+.pedido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.pedido:hover {
+    transform: scale(1.02);
+    background-color: #3a3a3a;
+}
+
+.carrito-contenido {
+    max-height: 80vh; /* Ajustado para evitar ocupar toda la pantalla */
+    overflow-y: auto;  
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #111;
+}
+
+.carrito-contenido::-webkit-scrollbar {
+    width: 8px;
+}
+
+.carrito-contenido::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+#login-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}

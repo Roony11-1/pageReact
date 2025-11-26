@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Detalle{
+    display: flex; gap: 20px;
+}
+
+.Info{
+   max-width: 400px;
+}

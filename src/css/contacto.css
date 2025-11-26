@@ -1,0 +1,22 @@
+.contacto{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding: 24px;
+    gap: 18px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-items: center;
+}
+
+.boton-enviar{
+    background-color: #1e90ff;
+}
+.boton-enviar:hover{
+    background-color: #0f6cd4;
+    transform: scale(1.02);
+}

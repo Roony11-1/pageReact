@@ -1,0 +1,73 @@
+.encabezado {
+    background: #1e90ff;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5px;
+    flex-wrap: wrap; /* permite que los elementos bajen en pantallas pequeñas */
+    border-radius: 0 0 10px 10px;
+
+    position: sticky;  /* se queda pegado */
+    top: 0;            /* al llegar arriba */
+    z-index: 1000;     /* asegura que quede por encima del contenido */
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.encabezado p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+.encabezado img {
+    flex-shrink: 0;
+    max-width: 60px;
+    height: auto;
+}
+
+.encabezado div {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.encabezado nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.encabezado nav ul li {
+    list-style: none;
+    margin: 0 16px;
+    display: inline-block;
+}
+
+.linkref {
+    background: #1e90ff;
+    border-color: #1e90ff;
+    border-radius: 5%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.linkref:hover, .logo:hover {
+    background: #145ea8;
+    border-color: #145ea8;
+    border-radius: 10%;
+}
