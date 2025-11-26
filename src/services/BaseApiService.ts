@@ -5,7 +5,7 @@ export abstract class BaseApiService<T> implements ServiceApiInterface<T>
 {
   protected endpoint: string;
   protected modelClass: { fromJSON(json: any): T };
-  protected baseUrl: string = "https://levelup-service-production.up.railway.app/api";
+  protected baseUrl: string = "http://localhost:8001/api";
   protected token?: string;
 
   constructor(endpoint: string, modelClass: { fromJSON(json: any): T }, token?: string) 
