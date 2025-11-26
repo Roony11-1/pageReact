@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import '../assets/css/home/home.css';
+import '../assets/css/Home/home.css';
 import type { Producto } from "../model/Producto";
 import { Link } from "react-router-dom";
 import { Boton } from "../components/Boton/Boton";
